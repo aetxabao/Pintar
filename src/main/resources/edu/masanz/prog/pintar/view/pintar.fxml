@@ -13,12 +13,12 @@
             fx:controller="edu.masanz.prog.pintar.controller.MainController"
             stylesheets="@pintar.css"
             maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="768.0" prefWidth="1024.0">
+            prefHeight="600" prefWidth="800">
 
     <center>
         <Pane fx:id="paneCanvas" BorderPane.alignment="CENTER">
             <children>
-                <Canvas fx:id="canvas" height="800.0" width="1152.0" />
+                <Canvas fx:id="canvas" height="500" width="800" />
             </children>
         </Pane>
     </center>

@@ -15,8 +15,8 @@ import java.net.URL;
 public class App extends Application {
 
     public static final URL URL_MAIN_VIEW = Main.class.getResource("/edu/masanz/prog/pintar/view/pintar.fxml");
-    public static final double APP_WIDTH = 1024;//1152;
-    public static final double APP_HEIGHT = 768;//864;
+    public static final double APP_WIDTH = 800;//1152;
+    public static final double APP_HEIGHT = 600;//864;
     public static final String APP_TITLE = "Pintar";
 
     private static Logger log = LogManager.getLogger();
